@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de UX para Almoxarifado Industrial - Artigo Científico</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pesquisa de UX para Almoxarifado Industrial: Identificação de Oportunidades de Melhoria</h1>
+            <p class="subtitle">Um estudo abrangente sobre processos, desafios e necessidades dos usuários em ambiente industrial</p>
+            <div class="authors">
+                <p>Equipe de Pesquisa em Experiência do Usuário - Departamento de Inovação</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="main-content">
+                <section class="abstract">
+                    <h2>Resumo</h2>
+                    <p>Esta pesquisa visa compreender os processos, desafios e necessidades dos usuários do almoxarifado industrial para identificar oportunidades de melhoria na gestão de materiais, fluxo de trabalho e experiência do usuário. Através de métodos qualitativos, incluindo entrevistas semiestruturadas, observação contextual e análise de documentos, foram mapeadas as principais dificuldades enfrentadas por diferentes perfis de usuários. Os resultados revelaram problemas significativos relacionados a processos manuais, falta de integração de sistemas e comunicação ineficiente. Com base nesses insights, foram desenvolvidas personas, mapas de jornada e um conjunto de oportunidades priorizadas para melhorias no sistema.</p>
+                </section>
+
+                <section id="introducao">
+                    <h2>1. Introdução</h2>
+                    <p>O almoxarifado industrial representa um componente crítico nas operações de manufatura e manutenção, funcionando como o centro de distribuição de materiais necessários para a continuidade das atividades produtivas. No entanto, muitos desses ambientes ainda operam com processos ultrapassados, sistemas desconectados e fluxos de trabalho ineficientes, resultando em perda de produtividade, aumento de custos e frustração dos colaboradores.</p>
+                    <p>Esta pesquisa foi conduzida para compreender profundamente a experiência dos usuários do almoxarifado em um ambiente industrial, identificando pontos de dor específicos e oportunidades de melhoria que possam orientar iniciativas de redesign e digitalização.</p>
+                </section>
+
+                <section id="metodologia">
+                    <h2>2. Metodologia</h2>
+                    <p>O estudo adotou uma abordagem qualitativa, combinando diferentes métodos de coleta e análise de dados para garantir uma compreensão abrangente do problema.</p>
+
+                    <h3>2.1 Participantes</h3>
+                    <p>Foram recrutados 14 participantes representando diferentes perfis de usuários do almoxarifado:</p>
+                    <ul>
+                        <li>4 almoxarifes (sênior e júnior)</li>
+                        <li>5 solicitantes de materiais (técnicos de manutenção e operadores)</li>
+                        <li>3 gestores de produção</li>
+                        <li>2 controladores de estoque</li>
+                    </ul>
+
+                    <h3>2.2 Métodos de Coleta de Dados</h3>
+                    <div class="methodology-grid">
+                        <div class="method-card">
+                            <h4>Entrevistas Semiestruturadas</h4>
+                            <p>14 sessões com duração média de 45 minutos, guiadas por roteiros específicos para cada perfil de usuário.</p>
+                        </div>
+                        <div class="method-card">
+                            <h4>Observação Contextual</h4>
+                            <p>18 horas de observação in loco dos processos de requisição, retirada e devolução de materiais.</p>
+                        </div>
+                        <div class="method-card">
+                            <h4>Análise de Documentos</h4>
+                            <p>Revisão de formulários, manuais de procedimento e sistemas existentes de gestão.</p>
+                        </div>
+                        <div class="method-card">
+                            <h4>Workshop de Cocriação</h4>
+                            <p>Sessão com 6 participantes para validação de insights e geração de ideias de melhoria.</p>
+                        </div>
+                    </div>
+
+                    <h3>2.3 Análise de Dados</h3>
+                    <p>Os dados coletados foram analisados através de mapeamento de afinidades, resultando na identificação de 187 notas individuais, agrupadas em 18 temas emergentes e posteriormente sintetizadas em 6 categorias principais.</p>
+                </section>
+
+                <section id="resultados">
+                    <h2>3. Resultados</h2>
+
+                    <h3>3.1 Categorias de Insights</h3>
+                    <p>Através do mapeamento de afinidades, identificamos seis categorias principais de problemas:</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Categoria</th>
+                                <th>Principais Problemas Identificados</th>
+                                <th>Frequência</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Comunicação e Informação</td>
+                                <td>Falta de visibilidade do estoque em tempo real, dificuldade em localizar materiais</td>
+                                <td>Alta</td>
+                            </tr>
+                            <tr>
+                                <td>Processos Manuais e Burocracia</td>
+                                <td>Excesso de papelada, processos de aprovação lentos, dupla entrada de dados</td>
+                                <td>Alta</td>
+                            </tr>
+                            <tr>
+                                <td>Layout e Organização Física</td>
+                                <td>Má distribuição de itens, sinalização inadequada, espaço limitado</td>
+                                <td>Média</td>
+                            </tr>
+                            <tr>
+                                <td>Tempo e Eficiência</td>
+                                <td>Filas de espera, tempo excessivo para localização, devoluções complicadas</td>
+                                <td>Alta</td>
+                            </tr>
+                            <tr>
+                                <td>Treinamento e Conhecimento</td>
+                                <td>Falta de padronização, dependência de conhecimento tácito</td>
+                                <td>Média</td>
+                            </tr>
+                            <tr>
+                                <td>Sistemas e Tecnologia</td>
+                                <td>Sistemas legados não integrados, interface complexa, falta de recursos móveis</td>
+                                <td>Alta</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>3.2 Personas Desenvolvidas</h3>
+                    <div class="persona-grid">
+                        <div class="persona-card">
+                            <div class="persona-header">
+                                <h4>Carlos - Almoxarife Sênior</h4>
+                            </div>
+                            <div class="persona-body">
+                                <div class="persona-detail">
+                                    <strong>Idade:</strong> 48 anos
+                                </div>
+                                <div class="persona-detail">
+                                    <strong>Experiência:</strong> 12 anos no almoxarifado
+                                </div>
+                                <div class="persona-detail">
+                                    <strong>Necessidades:</strong> Controle preciso do estoque, processos simplificados, melhor comunicação
+                                </div>
+                                <div class="persona-detail">
+                                    <strong>Frustrações:</strong> Sistema lento e propenso a erros, interrupções constantes
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="persona-card">
+                            <div class="persona-header">
+                                <h4>Ana - Técnica de Manutenção</h4>
+                            </div>
+                            <div class="persona-body">
+                                <div class="persona-detail">
+                                    <strong>Idade:</strong> 32 anos
+                                </div>
+                                <div class="persona-detail">
+                                    <strong>Experiência:</strong> Engenheira mecânica, 4 anos na empresa
+                                </div>
+                                <div class="persona-detail">
+                                    <strong>Necessidades:</strong> Acesso rápido aos materiais, visibilidade do estoque, processos simplificados
+                                </div>
+                                <div class="persona-detail">
+                                    <strong>Frustrações:</strong> Tempo perdido no almoxarifado, falta de informação, burocracia excessiva
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>3.3 Mapa de Jornada - Solicitação de Material</h3>
+                    <p>Análise da jornada de Ana (Técnica de Manutenção) para solicitação de material:</p>
+
+                    <div class="journey-phase">
+                        <h4>Fase 1: Planejamento</h4>
+                        <p><strong>Ação:</strong> Identifica necessidade de material para manutenção</p>
+                        <p><strong>Pensamento:</strong> "Preciso verificar se temos o componente em estoque"</p>
+                        <p><strong>Pontos de dor:</strong> Não consegue verificar estoque remotamente</p>
+                        <p><strong>Oportunidade:</strong> Sistema de consulta online de estoque</p>
+                    </div>
+
+                    <div class="journey-phase">
+                        <h4>Fase 2: Solicitação</h4>
+                        <p><strong>Ação:</strong> Preenche formulário de requisição em triplicata</p>
+                        <p><strong>Pensamento:</strong> "Sempre erro algum campo neste formulário complicado"</p>
+                        <p><strong>Pontos de dor:</strong> Formulário complexo, necessidade de aprovação manual</p>
+                        <p><strong>Oportunidade:</strong> Formulário digital simplificado com aprovação workflow</p>
+                    </div>
+
+                    <div class="journey-phase">
+                        <h4>Fase 3: Retirada</h4>
+                        <p><strong>Ação:</strong> Desloca-se ao almoxarifado e aguarda na fila</p>
+                        <p><strong>Pensamento:</strong> "Espero que o material esteja disponível e localizado rapidamente"</p>
+                        <p><strong>Pontos de dor:</strong> Filas, falta de informação prévia, tempo de espera</p>
+                        <p><strong>Oportunidade:</strong> Sistema de agendamento de retirada</p>
+                    </div>
+
+                    <div class="journey-phase">
+                        <h4>Fase 4: Recebimento</h4>
+                        <p><strong>Ação:</strong> Recebe material após confirmação de estoque</p>
+                        <p><strong>Pensamento:</strong> "Finalmente, mas perdi muito tempo neste processo"</p>
+                        <p><strong>Pontos de dor:</strong> Processo demorado, comunicação inadequada</p>
+                        <p><strong>Oportunidade:</strong> Notificações em tempo real sobre status</p>
+                    </div>
+                </section>
+
+                <section id="oportunidades">
+                    <h2>4. Oportunidades de Melhoria</h2>
+
+                    <h3>4.1 Oportunidades de Alto Impacto</h3>
+                    <div class="opportunity-grid">
+                        <div class="opportunity-card high-impact">
+                            <h4>Sistema de Gestão Digital Integrado</h4>
+                            <p>Desenvolver plataforma única para gestão de estoque com código de barras/RFID e portal online para consulta.</p>
+                        </div>
+
+                        <div class="opportunity-card high-impact">
+                            <h4>Processos Simplificados</h4>
+                            <p>Reduzir burocracia para materiais de baixo valor, implementar aprovação por workflow digital.</p>
+                        </div>
+
+                        <div class="opportunity-card high-impact">
+                            <h4>Melhoria na Experiência do Usuário</h4>
+                            <p>Desenvolver aplicativo móvel para solicitações, sistema de notificação em tempo real.</p>
+                        </div>
+                    </div>
+
+                    <h3>4.2 Oportunidades de Médio Impacto</h3>
+                    <div class="opportunity-grid">
+                        <div class="opportunity-card medium-impact">
+                            <h4>Otimização do Layout Físico</h4>
+                            <p>Reorganizar estoque por frequência de uso, melhorar sinalização, criar zona de retirada rápida.</p>
+                        </div>
+
+                        <div class="opportunity-card medium-impact">
+                            <h4>Capacitação e Padronização</h4>
+                            <p>Desenvolver programa de treinamento padronizado, manual de procedimentos visual, programa de mentoria.</p>
+                        </div>
+                    </div>
+
+                    <h3>4.3 Plano de Implementação</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Prazo</th>
+                                <th>Iniciativas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Curto Prazo (0-3 meses)</td>
+                                <td>Sistema de agendamento, categorização visual, formulário digital simplificado</td>
+                            </tr>
+                            <tr>
+                                <td>Médio Prazo (3-6 meses)</td>
+                                <td>Portal web para consulta de estoque, sistema de código de barras, redesenho de fluxos de aprovação</td>
+                            </tr>
+                            <tr>
+                                <td>Longo Prazo (6-12 meses)</td>
+                                <td>Sistema integrado de gestão, solução móvel completa, reorganização física do almoxarifado</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section id="metricas">
+                    <h2>5. Métricas de Sucesso</h2>
+                    <p>Para avaliar a eficácia das melhorias implementadas, foram definidas as seguintes métricas:</p>
+                    <ul>
+                        <li><strong>Tempo médio de solicitação:</strong> Reduzir de 45 para 15 minutos</li>
+                        <li><strong>Taxa de erro no inventário:</strong> Reduzir de 8% para 2%</li>
+                        <li><strong>Satisfação do usuário:</strong> Aumentar de 3.2 para 4.5 (escala 1-5)</li>
+                        <li><strong>Disponibilidade de informação:</strong> Atingir 95% de precisão</li>
+                    </ul>
+                </section>
+
+                <section class="conclusion">
+                    <h2>6. Conclusão</h2>
+                    <p>Esta pesquisa identificou que o almoxarifado industrial enfrenta desafios significativos relacionados a processos manuais, falta de integração de sistemas e comunicação ineficiente. Através de métodos qualitativos, foram mapeadas as experiências de diferentes usuários, resultando no desenvolvimento de personas e jornadas que evidenciam claramente os pontos de dor no processo atual.</p>
+                    <p>As oportunidades priorizadas focam na digitalização, simplificação de processos e melhoria da experiência do usuário, com potencial para gerar ganhos significativos de eficiência e satisfação. Recomenda-se a validação dessas oportunidades com stakeholders, o desenvolvimento de um business case detalhado e a implementação de um projeto piloto com as soluções de curto prazo.</p>
+                    <p>Este estudo demonstra o valor da pesquisa de UX na identificação de problemas complexos em ambientes industriais e na definição de soluções centradas no usuário que podem transformar operações críticas do negócio.</p>
+                </section>
+            </div>
+
+            <div class="sidebar">
+                <h3>Sumário</h3>
+                <ul>
+                    <li><a href="#introducao">1. Introdução</a></li>
+                    <li><a href="#metodologia">2. Metodologia</a></li>
+                    <li><a href="#resultados">3. Resultados</a></li>
+                    <li><a href="#oportunidades">4. Oportunidades</a></li>
+                    <li><a href="#metricas">5. Métricas</a></li>
+                    <li><a href="#conclusao">6. Conclusão</a></li>
+                </ul>
+
+                <h3>Dados da Pesquisa</h3>
+                <ul>
+                    <li><strong>Duração:</strong> 6 semanas</li>
+                    <li><strong>Participantes:</strong> 14</li>
+                    <li><strong>Entrevistas:</strong> 14 sessões</li>
+                    <li><strong>Observação:</strong> 18 horas</li>
+                    <li><strong>Insights:</strong> 187 notas</li>
+                </ul>
+
+                <h3>Downloads</h3>
+                <ul>
+                    <li><a href="#">Relatório Completo (PDF)</a></li>
+                    <li><a href="#">Apresentação Executiva</a></li>
+                    <li><a href="#">Roteiros de Entrevista</a></li>
+                    <li><a href="#">Mapas de Jornada</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Departamento de Pesquisa em Experiência do Usuário. Todos os direitos reservados.</p>
+            <p>Este trabalho está licenciado sob Creative Commons Attribution-NonCommercial 4.0 International License.</p>
+        </div>
+    </footer>
+</body>
+</html>
